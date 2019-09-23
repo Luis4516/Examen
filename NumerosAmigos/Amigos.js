@@ -7,7 +7,7 @@ btn.addEventListener('click', sonAmigos);
     }
 
     function sonAmigos(sumaUno,sumaDos) {
-        if(sumaUno == n2 && sumaDos == n1) {
+        if(sumaUno == n1) {
             return true;
         }
         else {
@@ -23,14 +23,4 @@ btn.addEventListener('click', sonAmigos);
             }
         }
         return sumaUno
-    }
-
-    function sumaDos(n2) {
-        let sumaDos = 0;
-        for(i=1; i<n2; i++) {
-            if(n1%i == 0) {
-                sumaDos+= i;
-            }
-        }
-        return sumaDos
     }
